@@ -1,0 +1,51 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environment Settings
+    // See also https://aka.ms/tsconfig/module
+    "module": "esnext",
+    "target": "esnext",
+    //"types": [],
+    // For nodejs:
+    // "lib": ["esnext"],
+    // "types": ["node"],
+    // and npm install -D @types/node
+
+    // Other Outputs
+   // "sourceMap": true,
+    //"declaration": true,
+    //"declarationMap": true,
+    "esModuleInterop": true, // pridejau
+    "forceConsistentCasingInFileNames": true, // pridejau
+
+    // Stricter Typechecking Options
+   //"noUncheckedIndexedAccess": true,
+   "exactOptionalPropertyTypes": true,
+
+    // Style Options
+    "noImplicitReturns": true,
+    // "noImplicitOverride": true,
+    "noUnusedLocals": true, // su juo meta klaida
+    "noUnusedParameters": true, // isjungiau
+    // "noFallthroughCasesInSwitch": true,
+    // "noPropertyAccessFromIndexSignature": true,
+
+    // Recommended Options
+    "strict": true,
+    "noImplicitAny": true, //pridejau
+    "strictNullChecks": true, // pridejau
+    "strictFunctionTypes": true, //pridejau
+    "strictPropertyInitialization": true, // pridejau
+    "alwaysStrict": true, //pridejau
+    //"jsx": "react-jsx",
+    //"verbatimModuleSyntax": true, // isjungiau
+    //"isolatedModules": true,      // isjungiau
+    //"noUncheckedSideEffectImports": true,
+   // "moduleDetection": "force",
+    "skipLibCheck": true,
+  }
+}
