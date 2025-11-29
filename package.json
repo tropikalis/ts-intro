@@ -2,10 +2,12 @@
   "name": "ts-intro",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "ts": "tsc --watch",
     "dev": "nodemon ./dist",
-    "shop": "nodemon ./dist/Shop.js",
+    "shop:func": "nodemon ./dist/shop-func.js",
+    "shop:class": "nodemon ./dist/shop.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
